@@ -1,5 +1,5 @@
 # CPE3300-RISCV-Pipeline-CPU
-RISC-V RV32I Pipeline CPU from CPE 3300 (Computer Architecture), designed using SystemVerilog and Vivado.
+RISC-V RV32I Pipeline CPU from Cal Poly CPE 3300 (Computer Architecture), designed using SystemVerilog and Vivado.
 Runs TestAll.mem file designed as a comprehensive test of all instructions; debug text file provided
 
 Data hazards currently mitigated in design:
