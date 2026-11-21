@@ -1,0 +1,6 @@
+CPE3300_BRANCH_TESTALL/
+
+*.jou
+*.log
+*.str
+.Xil/
