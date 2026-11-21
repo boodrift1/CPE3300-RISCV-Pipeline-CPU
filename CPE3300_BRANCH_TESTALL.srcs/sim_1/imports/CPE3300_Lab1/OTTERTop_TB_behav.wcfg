@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="OTTERTop_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="OTTERTop_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="132,578.867 ns"></ZoomStartTime>
+      <ZoomEndTime time="132,684.068 ns"></ZoomEndTime>
+      <Cursor1Time time="132,699.867 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="221"></NameColumnWidth>
+      <ValueColumnWidth column_width="81"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="32" />
+   <wvobject fp_name="/OTTERTop_TB/TB_RST" type="logic">
+      <obj_property name="ElementShortName">TB_RST</obj_property>
+      <obj_property name="ObjectShortName">TB_RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERTop_TB/TB_CLK" type="logic">
+      <obj_property name="ElementShortName">TB_CLK</obj_property>
+      <obj_property name="ObjectShortName">TB_CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="group56" type="group">
+      <obj_property name="label">PC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/OTTERTop_TB/UUT/PCM1/PCM_COUNT" type="array">
+         <obj_property name="ElementShortName">PCM_COUNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCM_COUNT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/PCM1/PCM_PLUS4" type="array">
+         <obj_property name="ElementShortName">PCM_PLUS4[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCM_PLUS4[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group55" type="group">
+      <obj_property name="label">PROGROM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/OTTERTop_TB/UUT/IM1/INSTRUCT" type="array">
+         <obj_property name="ElementShortName">INSTRUCT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">INSTRUCT[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group22" type="group">
+      <obj_property name="label">REGFILE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/RF_IR" type="array">
+         <obj_property name="ElementShortName">RF_IR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RF_IR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/RF_RS1" type="array">
+         <obj_property name="ElementShortName">RF_RS1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RF_RS1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/RF_RS2" type="array">
+         <obj_property name="ElementShortName">RF_RS2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RF_RS2[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group53" type="group">
+      <obj_property name="label">IG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/OTTERTop_TB/UUT/IG1/IG_IR" type="array">
+         <obj_property name="ElementShortName">IG_IR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IG_IR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/IG1/IG_U_TYPE" type="array">
+         <obj_property name="ElementShortName">IG_U_TYPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IG_U_TYPE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/IG1/IG_I_TYPE" type="array">
+         <obj_property name="ElementShortName">IG_I_TYPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IG_I_TYPE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/IG1/IG_S_TYPE" type="array">
+         <obj_property name="ElementShortName">IG_S_TYPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IG_S_TYPE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/IG1/IG_B_TYPE" type="array">
+         <obj_property name="ElementShortName">IG_B_TYPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IG_B_TYPE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/IG1/IG_J_TYPE" type="array">
+         <obj_property name="ElementShortName">IG_J_TYPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IG_J_TYPE[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group54" type="group">
+      <obj_property name="label">CUDCDR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/OTTERTop_TB/UUT/CUDCDR1/CUDCDR_ALU_FUN" type="array">
+         <obj_property name="ElementShortName">CUDCDR_ALU_FUN[3:0]</obj_property>
+         <obj_property name="ObjectShortName">CUDCDR_ALU_FUN[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/CUDCDR1/CUDCDR_ALU_SRCA" type="logic">
+         <obj_property name="ElementShortName">CUDCDR_ALU_SRCA</obj_property>
+         <obj_property name="ObjectShortName">CUDCDR_ALU_SRCA</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/CUDCDR1/CUDCDR_ALU_SRCB" type="array">
+         <obj_property name="ElementShortName">CUDCDR_ALU_SRCB[1:0]</obj_property>
+         <obj_property name="ObjectShortName">CUDCDR_ALU_SRCB[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/CUDCDR1/CUDCDR_RF_WE" type="logic">
+         <obj_property name="ElementShortName">CUDCDR_RF_WE</obj_property>
+         <obj_property name="ObjectShortName">CUDCDR_RF_WE</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group32" type="group">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/OTTERTop_TB/UUT/ALU1/ALU_A" type="array">
+         <obj_property name="ElementShortName">ALU_A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_A[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/ALU1/ALU_B" type="array">
+         <obj_property name="ElementShortName">ALU_B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_B[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/ALU1/ALU_FUN" type="array">
+         <obj_property name="ElementShortName">ALU_FUN[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_FUN[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/ALU1/ALU_OUT" type="array">
+         <obj_property name="ElementShortName">ALU_OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_OUT[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group87" type="group">
+      <obj_property name="label">RF Registers</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[0]" type="array">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[4]" type="array">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[5]" type="array">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[6]" type="array">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[7]" type="array">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[8]" type="array">
+         <obj_property name="ElementShortName">[8][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[9]" type="array">
+         <obj_property name="ElementShortName">[9][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[10]" type="array">
+         <obj_property name="ElementShortName">[10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[11]" type="array">
+         <obj_property name="ElementShortName">[11][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[12]" type="array">
+         <obj_property name="ElementShortName">[12][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[13]" type="array">
+         <obj_property name="ElementShortName">[13][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[14]" type="array">
+         <obj_property name="ElementShortName">[14][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[15]" type="array">
+         <obj_property name="ElementShortName">[15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[16]" type="array">
+         <obj_property name="ElementShortName">[16][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[17]" type="array">
+         <obj_property name="ElementShortName">[17][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[18]" type="array">
+         <obj_property name="ElementShortName">[18][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[19]" type="array">
+         <obj_property name="ElementShortName">[19][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[20]" type="array">
+         <obj_property name="ElementShortName">[20][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[21]" type="array">
+         <obj_property name="ElementShortName">[21][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[22]" type="array">
+         <obj_property name="ElementShortName">[22][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[23]" type="array">
+         <obj_property name="ElementShortName">[23][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[24]" type="array">
+         <obj_property name="ElementShortName">[24][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[25]" type="array">
+         <obj_property name="ElementShortName">[25][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[26]" type="array">
+         <obj_property name="ElementShortName">[26][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[27]" type="array">
+         <obj_property name="ElementShortName">[27][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[28]" type="array">
+         <obj_property name="ElementShortName">[28][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[29]" type="array">
+         <obj_property name="ElementShortName">[29][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[30]" type="array">
+         <obj_property name="ElementShortName">[30][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/RF1/ram[31]" type="array">
+         <obj_property name="ElementShortName">[31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/OTTERTop_TB/UUT/RF1/RF_WD" type="array">
+      <obj_property name="ElementShortName">RF_WD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RF_WD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERTop_TB/UUT/RF1/RF_WA" type="array">
+      <obj_property name="ElementShortName">RF_WA[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RF_WA[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group277" type="group">
+      <obj_property name="label">DM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/OTTERTop_TB/UUT/DM1/MEM_WE2" type="logic">
+         <obj_property name="ElementShortName">MEM_WE2</obj_property>
+         <obj_property name="ObjectShortName">MEM_WE2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/DM1/MEM_ADDR2" type="array">
+         <obj_property name="ElementShortName">MEM_ADDR2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_ADDR2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/DM1/MEM_DIN2" type="array">
+         <obj_property name="ElementShortName">MEM_DIN2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_DIN2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/DM1/MEM_SIZE" type="array">
+         <obj_property name="ElementShortName">MEM_SIZE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_SIZE[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/DM1/MEM_SIGN" type="logic">
+         <obj_property name="ElementShortName">MEM_SIGN</obj_property>
+         <obj_property name="ObjectShortName">MEM_SIGN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/DM1/MEM_DOUT2" type="array">
+         <obj_property name="ElementShortName">MEM_DOUT2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_DOUT2[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/OTTERTop_TB/UUT/HCU1/FWD_AE" type="array">
+      <obj_property name="ElementShortName">FWD_AE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">FWD_AE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERTop_TB/UUT/HCU1/FWD_BE" type="array">
+      <obj_property name="ElementShortName">FWD_BE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">FWD_BE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERTop_TB/UUT/HCU1/STL_F" type="logic">
+      <obj_property name="ElementShortName">STL_F</obj_property>
+      <obj_property name="ObjectShortName">STL_F</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERTop_TB/UUT/HCU1/STL_D" type="logic">
+      <obj_property name="ElementShortName">STL_D</obj_property>
+      <obj_property name="ObjectShortName">STL_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERTop_TB/UUT/HCU1/FSH_E" type="logic">
+      <obj_property name="ElementShortName">FSH_E</obj_property>
+      <obj_property name="ObjectShortName">FSH_E</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERTop_TB/UUT/HCU1/FSH_D" type="logic">
+      <obj_property name="ElementShortName">FSH_D</obj_property>
+      <obj_property name="ObjectShortName">FSH_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERTop_TB/UUT/HCU1/PC_SOURCE" type="array">
+      <obj_property name="ElementShortName">PC_SOURCE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_SOURCE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERTop_TB/UUT/HCU1/BRANCH_TAKEN" type="logic">
+      <obj_property name="ElementShortName">BRANCH_TAKEN</obj_property>
+      <obj_property name="ObjectShortName">BRANCH_TAKEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERTop_TB/UUT/DEC_EXEC_reg" type="array">
+      <obj_property name="ElementShortName">DEC_EXEC_reg</obj_property>
+      <obj_property name="ObjectShortName">DEC_EXEC_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERTop_TB/UUT/EXEC_MEM_reg" type="array">
+      <obj_property name="ElementShortName">EXEC_MEM_reg</obj_property>
+      <obj_property name="ObjectShortName">EXEC_MEM_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERTop_TB/UUT/MEM_WB_reg" type="array">
+      <obj_property name="ElementShortName">MEM_WB_reg</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="group359" type="group">
+      <obj_property name="label">BAG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/OTTERTop_TB/UUT/BAG1/BAG_RS1" type="array">
+         <obj_property name="ElementShortName">BAG_RS1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BAG_RS1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/BAG1/BAG_I_TYPE" type="array">
+         <obj_property name="ElementShortName">BAG_I_TYPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BAG_I_TYPE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/BAG1/BAG_B_TYPE" type="array">
+         <obj_property name="ElementShortName">BAG_B_TYPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BAG_B_TYPE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/BAG1/BAG_J_TYPE" type="array">
+         <obj_property name="ElementShortName">BAG_J_TYPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BAG_J_TYPE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/BAG1/BAG_PC" type="array">
+         <obj_property name="ElementShortName">BAG_PC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BAG_PC[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/BAG1/BAG_JAL" type="array">
+         <obj_property name="ElementShortName">BAG_JAL[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BAG_JAL[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/BAG1/BAG_BRANCH" type="array">
+         <obj_property name="ElementShortName">BAG_BRANCH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BAG_BRANCH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/BAG1/BAG_JALR" type="array">
+         <obj_property name="ElementShortName">BAG_JALR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BAG_JALR[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group363" type="group">
+      <obj_property name="label">BCG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/OTTERTop_TB/UUT/BCG1/BCG_RS1" type="array">
+         <obj_property name="ElementShortName">BCG_RS1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BCG_RS1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/BCG1/BCG_RS2" type="array">
+         <obj_property name="ElementShortName">BCG_RS2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BCG_RS2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/BCG1/BCG_BR_EQ" type="logic">
+         <obj_property name="ElementShortName">BCG_BR_EQ</obj_property>
+         <obj_property name="ObjectShortName">BCG_BR_EQ</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/BCG1/BCG_BR_LT" type="logic">
+         <obj_property name="ElementShortName">BCG_BR_LT</obj_property>
+         <obj_property name="ObjectShortName">BCG_BR_LT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/OTTERTop_TB/UUT/BCG1/BCG_BR_LTU" type="logic">
+         <obj_property name="ElementShortName">BCG_BR_LTU</obj_property>
+         <obj_property name="ObjectShortName">BCG_BR_LTU</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/OTTERTop_TB/UUT/BUS_FWD_AE" type="array">
+      <obj_property name="ElementShortName">BUS_FWD_AE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">BUS_FWD_AE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERTop_TB/UUT/BUS_FWD_BE" type="array">
+      <obj_property name="ElementShortName">BUS_FWD_BE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">BUS_FWD_BE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERTop_TB/UUT/BUS_FWD_AE_OUT" type="array">
+      <obj_property name="ElementShortName">BUS_FWD_AE_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BUS_FWD_AE_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERTop_TB/UUT/BUS_FWD_BE_OUT" type="array">
+      <obj_property name="ElementShortName">BUS_FWD_BE_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BUS_FWD_BE_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERTop_TB/UUT/BUS_CUDCDR_ALU_SRCA" type="logic">
+      <obj_property name="ElementShortName">BUS_CUDCDR_ALU_SRCA</obj_property>
+      <obj_property name="ObjectShortName">BUS_CUDCDR_ALU_SRCA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERTop_TB/UUT/BUS_CUDCDR_ALU_SRCB" type="array">
+      <obj_property name="ElementShortName">BUS_CUDCDR_ALU_SRCB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">BUS_CUDCDR_ALU_SRCB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERTop_TB/UUT/BUS_CUDCDR_RF_WR_SEL" type="array">
+      <obj_property name="ElementShortName">BUS_CUDCDR_RF_WR_SEL[1:0]</obj_property>
+      <obj_property name="ObjectShortName">BUS_CUDCDR_RF_WR_SEL[1:0]</obj_property>
+   </wvobject>
+</wave_config>
